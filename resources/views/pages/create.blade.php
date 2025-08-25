@@ -20,5 +20,8 @@
 
             <button type="submit">Save</button>
         </form>
+        <div class="flex justify-content-center">
+            <a href="{{ route('pages.index') }}" class="btn btn-primary">Back</a>
+        </div>
     </div>
 @endsection

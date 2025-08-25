@@ -5,7 +5,7 @@ use App\Http\Controllers\CustomerController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::view('/', 'pages.index');
+Route::view('/', 'pages.index')->name('pages.index');
 
 
 Route::get('/customers/create', [CustomerController::class, 'create'])->name('pages.create');
